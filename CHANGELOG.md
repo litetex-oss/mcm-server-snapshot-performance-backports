@@ -1,4 +1,4 @@
-# 1.21.1.0
+# 1.21.1.1
 
 * Backported [``pause-when-empty-seconds``](https://minecraft.wiki/w/Server.properties)
   * Impact: Depending on what is present in loaded (spawn) chunks this usually leads to a few percent lower idle CPU usage
