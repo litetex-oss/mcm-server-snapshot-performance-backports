@@ -10,10 +10,9 @@ ext {
     checkstyleVersion = '10.18.1'
     // Derive version from yarn
     minecraft_version = project.yarn_mappings.split("\\+")[0]
-    version = "${minecraft_version}.${project.mod_version}"
 }
 
-version = "${project.ext.version}"
+version = project.mod_version
 group = project.maven_group
 
 base {
