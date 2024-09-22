@@ -11,6 +11,13 @@ Minecraft mod that backports server performance improvements for the latest rele
 
 Details about the optimizations can be found in the [changelog](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/blob/dev/CHANGELOG.md).
 
+## Motivation/Why does this mod exist?
+
+Snapshots (e.g. [24w33a](https://minecraft.wiki/w/Java_Edition_24w33a)) can contains extreme performance improvements for servers.<br/>
+However it may take months until we see these improvements are finally shipped in a release.
+
+This mod contains selected extracted improvements from the snapshots and backports them into the latest available release.
+
 <!-- modrinth_exclude.start -->
 
 ## Installation
