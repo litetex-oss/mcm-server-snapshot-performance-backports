@@ -14,7 +14,7 @@ Details about the optimizations can be found in the [changelog](https://github.c
 ## Motivation/Why does this mod exist?
 
 Snapshots (e.g. [24w33a](https://minecraft.wiki/w/Java_Edition_24w33a)) can contains extreme performance improvements for servers.<br/>
-However it may take months until we see these improvements are finally shipped in a release.
+However it may take months until we see these improvements finally shipped in a release.
 
 This mod contains selected extracted improvements from the snapshots and backports them into the latest available release.
 
