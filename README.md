@@ -9,6 +9,8 @@
 # Server Snapshot Performance Backports
 Minecraft mod that backports server performance improvements for the latest release from the latest snapshots
 
+More details can be found in the [changelogs](./CHANGELOG.md)
+
 <!-- modrinth_exclude.start -->
 
 ## Installation
