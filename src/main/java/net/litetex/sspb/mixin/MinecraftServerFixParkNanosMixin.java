@@ -49,13 +49,14 @@ public abstract class MinecraftServerFixParkNanosMixin
 	@Overwrite
 	public void waitForTasks()
 	{
-		final boolean bl = this.shouldPushTickTimeLog();
-		final long l = bl ? Util.getMeasuringTimeNano() : 0L;
-		final long m = this.waitingForNextTickNew ? this.tickStartTimeNanos - Util.getMeasuringTimeNano() : 100000L;
-		LockSupport.parkNanos("waiting for tasks", m);
-		if(bl)
+		final boolean pushTickTimeLog = this.shouldPushTickTimeLog();
+		final long beforeParkNanosMeasuringTimeNano = pushTickTimeLog ? Util.getMeasuringTimeNano() : 0L;
+		LockSupport.parkNanos(
+			"waiting for tasks",
+			this.waitingForNextTickNew ? this.tickStartTimeNanos - Util.getMeasuringTimeNano() : 100000L);
+		if(pushTickTimeLog)
 		{
-			this.waitTime += Util.getMeasuringTimeNano() - l;
+			this.waitTime += Util.getMeasuringTimeNano() - beforeParkNanosMeasuringTimeNano;
 		}
 	}
 	
