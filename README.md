@@ -1,15 +1,15 @@
 <!-- modrinth_exclude.start -->
 
-[![Version](https://img.shields.io/modrinth/v/TODO)](https://modrinth.com/mod/server-snapshot-performance-backports)
+[![Version](https://img.shields.io/modrinth/v/r2KV1Oja)](https://modrinth.com/mod/server-snapshot-performance-backports)
 [![Build](https://img.shields.io/github/actions/workflow/status/litetex-oss/mcm-server-snapshot-performance-backports/check-build.yml?branch=dev)](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/actions/workflows/check-build.yml?query=branch%3Adev)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=litetex-oss_mcm-server-snapshot-performance-backports&metric=alert_status)](https://sonarcloud.io/dashboard?id=litetex-oss_mcm-server-snapshot-performance-backports)
 
 <!-- modrinth_exclude.end -->
 
 # Server Snapshot Performance Backports
-Minecraft mod that backports server performance improvements for the latest release from the latest snapshots
+Minecraft mod that backports server performance improvements for the latest release from the latest snapshots.
 
-More details can be found in the [changelogs](./CHANGELOG.md)
+Details about the optimizations can be found in the [changelog](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/blob/dev/CHANGELOG.md).
 
 <!-- modrinth_exclude.start -->
 
