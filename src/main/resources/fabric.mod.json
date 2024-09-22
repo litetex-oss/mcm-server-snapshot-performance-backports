@@ -20,7 +20,7 @@
   ],
   "accessWidener": "sspb.accesswidener",
   "depends": {
-    "minecraft": "<1.21.2"
+    "minecraft": "<=${minecraft_version}"
   },
   "recommends": {
     "fabricloader": ">=${loader_version}",
