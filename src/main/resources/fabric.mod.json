@@ -13,6 +13,7 @@
     "issues": "https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/issues"
   },
   "license": "Apache-2.0",
+  "icon": "assets/icon.png",
   "environment": "*",
   "mixins": [
     "sspb.mixins.json"
