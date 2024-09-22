@@ -7,7 +7,7 @@
 <!-- modrinth_exclude.end -->
 
 # Server Snapshot Performance Backports
-Minecraft mod that backports server performance improvements from the latest snapshots
+Minecraft mod that backports server performance improvements for the latest release from the latest snapshots
 
 <!-- modrinth_exclude.start -->
 
