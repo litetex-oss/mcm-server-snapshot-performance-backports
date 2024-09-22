@@ -3,7 +3,7 @@
   "id": "server-snapshot-performance-backports",
   "version": "${version}",
   "name": "Server Snapshot Performance Backports",
-  "description": "Backports server performance improvements from the latest snapshots",
+  "description": "Backports server performance improvements for the latest release from the latest snapshots",
   "authors": [
     "litetex"
   ],
