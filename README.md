@@ -18,12 +18,15 @@ However it may take months until we see these improvements finally shipped in a 
 
 This mod contains selected extracted improvements from the snapshots and backports them into the latest available release.
 
-### 1.21.1 Comparison
+<details><summary>1.21.1 Comparison</summary>
+
 Before / Without mod:
 ![Before](https://raw.githubusercontent.com/litetex-oss/mcm-server-snapshot-performance-backports/refs/heads/dev/assets/1.21.1_Before_Without.jpg)
 
 After / With mod:
 ![After](https://raw.githubusercontent.com/litetex-oss/mcm-server-snapshot-performance-backports/refs/heads/dev/assets/1.21.1_After_With.jpg)
+
+</details>
 
 <!-- modrinth_exclude.start -->
 
