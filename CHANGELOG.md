@@ -7,8 +7,8 @@
     * As a reference a SMP server hosted on a 2 core ARM VM reduced idle CPU usage from 10% to 5%
 
 ### Comparison
-Before:
+Before / Without the mod:
 ![](./assets/1.21.1_Before_Without.jpg)
 
-After:
+After / With the mod:
 ![](./assets/1.21.1_After_With.jpg)
