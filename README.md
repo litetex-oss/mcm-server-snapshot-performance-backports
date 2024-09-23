@@ -20,10 +20,10 @@ This mod contains selected extracted improvements from the snapshots and backpor
 
 <details><summary>1.21.1 Comparison</summary>
 
-Before / Without mod:
+Before / Without mod:<br/>
 ![Before](https://raw.githubusercontent.com/litetex-oss/mcm-server-snapshot-performance-backports/refs/heads/dev/assets/1.21.1_Before_Without.jpg)
 
-After / With mod:
+After / With mod:<br/>
 ![After](https://raw.githubusercontent.com/litetex-oss/mcm-server-snapshot-performance-backports/refs/heads/dev/assets/1.21.1_After_With.jpg)
 
 </details>
