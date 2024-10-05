@@ -1,5 +1,7 @@
-# 1.21.1.1
+# 1.21.1.2
+* Fixed incorrect java version compatibility level
 
+# 1.21.1.1
 * Backported [``pause-when-empty-seconds``](https://minecraft.wiki/w/Server.properties)
   * Impact: Depending on what is present in loaded (spawn) chunks this usually leads to a few percent lower idle CPU usage
 * Backported fix for [MC-183518](https://bugs.mojang.com/browse/MC-183518)
