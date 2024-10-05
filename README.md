@@ -13,10 +13,20 @@ Details about the optimizations can be found in the [changelog](https://github.c
 
 ## Motivation/Why does this mod exist?
 
-Snapshots (e.g. [24w33a](https://minecraft.wiki/w/Java_Edition_24w33a)) can contains extreme performance improvements for servers.<br/>
+Snapshots (e.g. [24w33a](https://minecraft.wiki/w/Java_Edition_24w33a)) can contain extreme performance improvements for servers.<br/>
 However it may take months until we see these improvements finally shipped in a release.
 
 This mod contains selected extracted improvements from the snapshots and backports them into the latest available release.
+
+<details><summary>1.21.1 Idle CPU usage comparison</summary>
+
+Before / Without mod:<br/>
+![Before](https://raw.githubusercontent.com/litetex-oss/mcm-server-snapshot-performance-backports/refs/heads/dev/assets/1.21.1_Before_Without.jpg)
+
+After / With mod:<br/>
+![After](https://raw.githubusercontent.com/litetex-oss/mcm-server-snapshot-performance-backports/refs/heads/dev/assets/1.21.1_After_With.jpg)
+
+</details>
 
 <!-- modrinth_exclude.start -->
 
