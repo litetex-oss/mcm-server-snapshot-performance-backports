@@ -1,9 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.litetex.template-placeholder.mixin",
+  "package": "net.litetex.sspb.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "MinecraftDedicatedServerPWEMixin",
+    "MinecraftServerFixParkNanosMixin",
+    "MinecraftServerPWEMixin"
   ],
   "injectors": {
     "defaultRequire": 1
