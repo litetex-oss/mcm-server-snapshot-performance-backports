@@ -1,1 +1,2 @@
 accessWidener v2 named
+accessible method net/minecraft/server/dedicated/AbstractPropertiesHandler getInt (Ljava/lang/String;I)I
