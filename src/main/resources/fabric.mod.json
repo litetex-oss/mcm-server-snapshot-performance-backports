@@ -16,7 +16,7 @@
   "icon": "assets/icon.png",
   "environment": "*",
   "mixins": [
-    "mod.mixins.json"
+    "template-placeholder.mixins.json"
   ],
   "accessWidener": "mod.accesswidener",
   "depends": {
