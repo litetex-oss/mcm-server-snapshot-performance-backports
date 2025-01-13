@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.9.1'
+    id 'fabric-loom' version '1.9.2'
     id 'maven-publish'
     id 'checkstyle'
     id 'org.sonarqube' version '6.0.1.5171'
@@ -7,7 +7,7 @@ plugins {
 }
 
 ext {
-    checkstyleVersion = '10.20.2'
+    checkstyleVersion = '10.21.1'
     // Derive version from yarn
     minecraft_version = project.yarn_mappings.split("\\+")[0]
 }
