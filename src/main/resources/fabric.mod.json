@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "server-snapshot-performance-backports",
+  "id": "${id}",
   "version": "${version}",
-  "name": "Server Snapshot Performance Backports",
-  "description": "Backports server performance improvements for the latest release from the latest snapshots",
+  "name": "${name}",
+  "description": "${desc}",
   "authors": [
     "litetex"
   ],
   "contact": {
-    "homepage": "https://github.com/litetex-oss/mcm-server-snapshot-performance-backports",
-    "sources": "https://github.com/litetex-oss/mcm-server-snapshot-performance-backports",
-    "issues": "https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/issues"
+    "homepage": "https://github.com/litetex-oss/mcm-${id}",
+    "sources": "https://github.com/litetex-oss/mcm-${id}",
+    "issues": "https://github.com/litetex-oss/mcm-${id}/issues"
   },
-  "license": "Apache-2.0",
+  "license": "${license_spdx_id}",
   "icon": "assets/icon.png",
   "environment": "*",
   "mixins": [
@@ -28,8 +28,8 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.github_releases": "https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/releases",
-        "modmenu.modrinth": "https://modrinth.com/mod/server-snapshot-performance-backports"
+        "modmenu.github_releases": "https://github.com/litetex-oss/mcm-${id}/releases",
+        "modmenu.modrinth": "https://modrinth.com/mod/${id}"
       }
     }
   }
