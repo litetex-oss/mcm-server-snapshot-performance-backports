@@ -39,7 +39,7 @@ After / With mod:<br/>
 Add the following to ``build.gradle``:
 ```groovy
 dependencies {
-    modImplementation 'net.litetex.mcm:template-placeholder:<version>'
+    modImplementation 'net.litetex.mcm:server-snapshot-performance-backports:<version>'
     // Further documentation: https://wiki.fabricmc.net/documentation:fabric_loom
 }
 ```
