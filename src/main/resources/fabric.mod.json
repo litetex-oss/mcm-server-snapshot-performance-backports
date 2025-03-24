@@ -16,12 +16,14 @@
   "icon": "assets/icon.png",
   "environment": "*",
   "mixins": [
-    "template-placeholder.mixins.json"
+    "sspb.mixins.json"
   ],
-  "accessWidener": "template-placeholder.accesswidener",
+  "accessWidener": "sspb.accesswidener",
+  "depends": {
+    "minecraft": "<=${minecraft_version}"
+  },
   "recommends": {
-    "fabricloader": ">=${loader_version}",
-    "minecraft": "~${minecraft_version}"
+    "fabricloader": ">=${loader_version}"
   },
   "custom": {
     "modmenu": {
