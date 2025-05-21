@@ -15,14 +15,27 @@ body:
     attributes:
       label: "Checklist"
       options:
-        - label: "I am able to reproduce the bug with the [latest version](https://github.com/litetex-oss/template-placeholder/releases/latest)"
+        - label: "I am able to reproduce the bug with the [latest version](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/releases/latest)"
           required: true
-        - label: "I made sure that there are *no existing issues* - [open](https://github.com/litetex-oss/template-placeholder/issues) or [closed](https://github.com/litetex-oss/template-placeholder/issues?q=is%3Aissue+is%3Aclosed) - which I could contribute my information to."
+        - label: "I made sure that there are *no existing issues* - [open](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/issues) or [closed](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/issues?q=is%3Aissue+is%3Aclosed) - which I could contribute my information to."
           required: true
         - label: "I have taken the time to fill in all the required details. I understand that the bug report will be dismissed otherwise."
           required: true
-        - label: "This issue contains only one bug."
-          required: true
+
+  - type: checkboxes
+    id: quick-toubleshooting
+    attributes:
+      label: "Quick Troubleshooting Guide"
+      options:
+        - label: "Are you using the correct version of minecraft for this version of the mod?"
+        - label: "Did you install the mod correctly? Does it e.g. show up in the Mod Menu?"
+        - label: "Are there any other mods installed that might affect this mod?"
+        - label: "Does the mod work if all other mods are disabled?"
+        - label: "Does the mod work in another world?"
+        - label: |
+            Are there any warnings related to the mod when launching the game? 
+            (Log output can be enabled in the Minecraft launcher under 
+            Settings (bottom left) > General > Minecraft: Java Edition settings → Check "Open output log when Minecraft: Java Edition starts")"
 
   - type: input
     id: app-version
