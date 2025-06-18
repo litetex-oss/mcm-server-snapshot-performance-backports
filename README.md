@@ -7,6 +7,8 @@
 
 <!-- modrinth_exclude.end -->
 
+_NOTE: This mod is currently archived as there haven't been any performance optimizations to backport in the recent time_
+
 Backports server performance improvements for the latest release from the latest snapshots.
 
 Details about the optimizations can be found in the [changelog](https://github.com/litetex-oss/mcm-server-snapshot-performance-backports/blob/dev/CHANGELOG.md).
